@@ -1,0 +1,289 @@
+/*
+COLOURS
+https://colorhunt.co/palette/e8e8e8f0545430475e222831
+
+
+*/
+
+body {
+  background-color: #3d3d3d;
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0 ,0 ,0 ,0.25);
+}
+
+/* HEADER SECTION */
+
+.top {
+  background-image: linear-gradient(135deg, rgb(48,71,94), rgb(103,112,127), rgb(48,71,94));
+  padding: 0.75rem 0;
+  text-align: center;
+}
+
+.top h1 {
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+}
+
+.top i:first-child {
+  margin-right: 1.5rem;
+}
+
+.top i:last-child {
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .top h1 {
+    font-size: 1.75rem;
+  }
+}
+
+/* END HEADER SECTION */
+
+/* NAVIGATION */
+
+.navigation-bar {
+  background-image: linear-gradient(135deg, rgb(34, 40, 49), rgb(46, 54, 66), rgb(34, 40, 49));
+  margin: 0;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.navigation-menu {
+  /* margin: 0; */
+  color: #fff;
+  font-size: 1rem;
+
+}
+
+.navigation-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu li {
+  display: inline-block;
+}
+
+.navigation-menu a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.navigation-menu a:hover {
+  text-decoration: underline;
+}
+
+/* END NAVIGATION */
+
+
+/* SECTIONS */
+
+/* SECTION - THE PLAN */
+.the-plan {
+  background-color: #F05454;
+  color: #fff;
+}
+
+/* END SECTION - THE PLAN */
+
+/* SECTION - DAY ONE - HEAVY */
+.day-one {
+  background-color: #fff;
+  color: #000;
+}
+
+.table-heavy thead th {
+  background-color: rgb(34, 40, 49);
+  color: #fff;
+}
+
+.table-heavy table tr:nth-child(even) {
+  background-color: rgba(34, 40, 49,0.1);
+}
+
+.table-heavy table tr:last-child {
+  border-bottom: 1px solid rgb(34, 40, 49);
+}
+/* END SECTION - DAY ONE - HEAVY */
+
+/* SECTION - DAY TWO - LIGHT */
+.day-two {
+  background-color: #30475e;
+  color: #fff;
+}
+
+.table-light thead th {
+  background-color: rgb(34, 40, 49);
+}
+
+.table-light table tr:nth-child(even) {
+  background-color: rgba(34, 40, 49,0.1);
+}
+
+.table-light table tr:last-child {
+  border-bottom: 1px solid #fff;
+}
+/* END SECTION - DAY TWO - LIGHT */
+
+/* SECTION - DAY THREE - MEDIUM */
+
+.day-three {
+  background-color: #fff;
+  color: #000;
+}
+
+.table-medium thead th {
+  background-color: rgb(34, 40, 49);
+  color: #fff;
+}
+
+.table-medium table tr:nth-child(even) {
+  background-color: rgba(34, 40, 49,0.1);
+}
+
+.table-medium table tr:last-child {
+  border-bottom: 1px solid rgb(34, 40, 49);
+}
+/* END SECTION - DAY THREE - MEDIUM */
+
+/* SECTION - DAY FOUR - BODYBUILDING */
+.day-four {
+  background-color: #F05454;
+  color: #fff;
+}
+
+.table-bodybuilding thead th {
+  background-color: rgb(34, 40, 49);
+}
+
+.table-bodybuilding table tr:nth-child(even) {
+  background-color: rgba(34, 40, 49,0.1);
+}
+
+.table-bodybuilding table tr:last-child {
+  border-bottom: 1px solid #fff;
+}
+/* END SECTION DAY FOUR - BODYBUILDING */
+
+/* SECTION - REST DAY */
+.rest-day {
+  background-color: #67707f;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+/* END SECTION - OFF DAY */
+
+/* SECTION CONTAINER */
+.section-container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+/* END SECTION CONTAINER */
+
+/* END SECTIONS */
+
+/* TRAINING TABLE */
+.table-training {
+  margin: 0;
+}
+
+.table-training table {
+border-collapse: collapse;
+margin: 0;
+text-align: left;
+box-shadow: 3px 3px 15px  rgba(34, 40, 49,0.2);
+}
+
+.table-training thead th:first-child {  
+  border-top-left-radius: 5px;
+}
+
+.table-training thead th:last-child {
+  border-top-right-radius: 5px;
+}
+
+.table-training table td,th {
+padding: 5px;
+}
+
+.table-training table td:first-child {
+  width: 150px;
+}
+
+.table-training table td:nth-child(2) {
+  width: 90px;
+}
+
+.table-training table td:last-child {
+  width: 90px;
+}
+/* END TRAINING TABLE */
+
+.separator-thick {
+  height: 4px;
+  background-color: #000;
+  margin: 0;
+}
+
+.separator-thin {
+  height: 1px;
+  background-color: #000;
+  margin: 0;
+}
+
+footer {
+  background-color: #222831;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-container li {
+  display: inline;
+}
+
+.footer-container li a {
+  text-decoration: none;
+  color: rgb(142, 142, 142);
+  padding: 0 1rem;
+}
+
+.footer-container li a:hover {
+  text-decoration: underline;
+}
+
+.site-by-nate {
+  position: absolute;
+  bottom: 10px;
+  color: rgb(160,160,160);
+  right: 10px;
+  margin: 0;
+}
